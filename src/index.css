@@ -1,0 +1,4 @@
+#content > pre > span {
+    background: lightgray;
+    border: 1px solid grey;
+}
