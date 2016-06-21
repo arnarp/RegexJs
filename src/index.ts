@@ -16,6 +16,7 @@ import {FindGroupsOfCharacters} from './FindGroupsOfCharacters';
 import {FindAStringThatPrecedesAnotherString} from './FindAStringThatPrecedesAnotherString';
 import {FindTheStartAndEndOfWholeWords} from './FindTheStartAndEndOfWholeWords';
 import {MatchTheSameStringTwice} from './MatchTheSameStringTwice';
+import {MatchTheStartAndEndOfALine} from './MatchTheStartAndEndOfALine';
 
 const lessons: ILesson[] = [
   Introduction,
@@ -26,7 +27,8 @@ const lessons: ILesson[] = [
   FindGroupsOfCharacters,
   FindAStringThatPrecedesAnotherString,
   FindTheStartAndEndOfWholeWords,
-  MatchTheSameStringTwice
+  MatchTheSameStringTwice,
+  MatchTheStartAndEndOfALine
 ];
 const select: HTMLSelectElement = document.getElementById('select') as HTMLSelectElement;
 const contentNode = document.getElementById('content') as HTMLDivElement;
