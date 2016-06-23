@@ -16,6 +16,7 @@ var FindGroupsOfCharacters_1 = require('./FindGroupsOfCharacters');
 var FindAStringThatPrecedesAnotherString_1 = require('./FindAStringThatPrecedesAnotherString');
 var FindTheStartAndEndOfWholeWords_1 = require('./FindTheStartAndEndOfWholeWords');
 var MatchTheSameStringTwice_1 = require('./MatchTheSameStringTwice');
+var MatchTheStartAndEndOfALine_1 = require('./MatchTheStartAndEndOfALine');
 var lessons = [
     Introduction_1.Introduction,
     FindPlainTextPatterns_1.FindPlainTextPatterns,
@@ -25,7 +26,8 @@ var lessons = [
     FindGroupsOfCharacters_1.FindGroupsOfCharacters,
     FindAStringThatPrecedesAnotherString_1.FindAStringThatPrecedesAnotherString,
     FindTheStartAndEndOfWholeWords_1.FindTheStartAndEndOfWholeWords,
-    MatchTheSameStringTwice_1.MatchTheSameStringTwice
+    MatchTheSameStringTwice_1.MatchTheSameStringTwice,
+    MatchTheStartAndEndOfALine_1.MatchTheStartAndEndOfALine
 ];
 var select = document.getElementById('select');
 var contentNode = document.getElementById('content');
